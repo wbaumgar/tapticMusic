@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281938BE23EA8622001E6652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938BD23EA8622001E6652 /* AppDelegate.swift */; };
+		281938C023EA8622001E6652 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938BF23EA8622001E6652 /* SceneDelegate.swift */; };
+		281938C223EA8622001E6652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938C123EA8622001E6652 /* ViewController.swift */; };
+		281938C523EA8622001E6652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281938C323EA8622001E6652 /* Main.storyboard */; };
+		281938C723EA8624001E6652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281938C623EA8624001E6652 /* Assets.xcassets */; };
+		281938CA23EA8624001E6652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281938C823EA8624001E6652 /* LaunchScreen.storyboard */; };
+		281938D523EA8624001E6652 /* tapticMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938D423EA8624001E6652 /* tapticMusicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		281938D123EA8624001E6652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281938B223EA8622001E6652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281938B923EA8622001E6652;
+			remoteInfo = tapticMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281938BA23EA8622001E6652 /* tapticMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapticMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		281938BD23EA8622001E6652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		281938BF23EA8622001E6652 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		281938C123EA8622001E6652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		281938C423EA8622001E6652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		281938C623EA8624001E6652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		281938C923EA8624001E6652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		281938CB23EA8624001E6652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281938D023EA8624001E6652 /* tapticMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapticMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281938D423EA8624001E6652 /* tapticMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapticMusicTests.swift; sourceTree = "<group>"; };
+		281938D623EA8624001E6652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281938B723EA8622001E6652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281938CD23EA8624001E6652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281938B123EA8622001E6652 = {
+			isa = PBXGroup;
+			children = (
+				281938BC23EA8622001E6652 /* tapticMusic */,
+				281938D323EA8624001E6652 /* tapticMusicTests */,
+				281938BB23EA8622001E6652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281938BB23EA8622001E6652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281938BA23EA8622001E6652 /* tapticMusic.app */,
+				281938D023EA8624001E6652 /* tapticMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281938BC23EA8622001E6652 /* tapticMusic */ = {
+			isa = PBXGroup;
+			children = (
+				281938BD23EA8622001E6652 /* AppDelegate.swift */,
+				281938BF23EA8622001E6652 /* SceneDelegate.swift */,
+				281938C123EA8622001E6652 /* ViewController.swift */,
+				281938C323EA8622001E6652 /* Main.storyboard */,
+				281938C623EA8624001E6652 /* Assets.xcassets */,
+				281938C823EA8624001E6652 /* LaunchScreen.storyboard */,
+				281938CB23EA8624001E6652 /* Info.plist */,
+			);
+			path = tapticMusic;
+			sourceTree = "<group>";
+		};
+		281938D323EA8624001E6652 /* tapticMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				281938D423EA8624001E6652 /* tapticMusicTests.swift */,
+				281938D623EA8624001E6652 /* Info.plist */,
+			);
+			path = tapticMusicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281938B923EA8622001E6652 /* tapticMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281938D923EA8624001E6652 /* Build configuration list for PBXNativeTarget "tapticMusic" */;
+			buildPhases = (
+				281938B623EA8622001E6652 /* Sources */,
+				281938B723EA8622001E6652 /* Frameworks */,
+				281938B823EA8622001E6652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tapticMusic;
+			productName = tapticMusic;
+			productReference = 281938BA23EA8622001E6652 /* tapticMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		281938CF23EA8624001E6652 /* tapticMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281938DC23EA8624001E6652 /* Build configuration list for PBXNativeTarget "tapticMusicTests" */;
+			buildPhases = (
+				281938CC23EA8624001E6652 /* Sources */,
+				281938CD23EA8624001E6652 /* Frameworks */,
+				281938CE23EA8624001E6652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281938D223EA8624001E6652 /* PBXTargetDependency */,
+			);
+			name = tapticMusicTests;
+			productName = tapticMusicTests;
+			productReference = 281938D023EA8624001E6652 /* tapticMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281938B223EA8622001E6652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "William Baumgardner";
+				TargetAttributes = {
+					281938B923EA8622001E6652 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					281938CF23EA8624001E6652 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 281938B923EA8622001E6652;
+					};
+				};
+			};
+			buildConfigurationList = 281938B523EA8622001E6652 /* Build configuration list for PBXProject "tapticMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281938B123EA8622001E6652;
+			productRefGroup = 281938BB23EA8622001E6652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281938B923EA8622001E6652 /* tapticMusic */,
+				281938CF23EA8624001E6652 /* tapticMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281938B823EA8622001E6652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281938CA23EA8624001E6652 /* LaunchScreen.storyboard in Resources */,
+				281938C723EA8624001E6652 /* Assets.xcassets in Resources */,
+				281938C523EA8622001E6652 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281938CE23EA8624001E6652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281938B623EA8622001E6652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281938C223EA8622001E6652 /* ViewController.swift in Sources */,
+				281938BE23EA8622001E6652 /* AppDelegate.swift in Sources */,
+				281938C023EA8622001E6652 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281938CC23EA8624001E6652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281938D523EA8624001E6652 /* tapticMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		281938D223EA8624001E6652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281938B923EA8622001E6652 /* tapticMusic */;
+			targetProxy = 281938D123EA8624001E6652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		281938C323EA8622001E6652 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281938C423EA8622001E6652 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		281938C823EA8624001E6652 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281938C923EA8624001E6652 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		281938D723EA8624001E6652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		281938D823EA8624001E6652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		281938DA23EA8624001E6652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJBWJFMDD;
+				INFOPLIST_FILE = tapticMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hi.tapticMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		281938DB23EA8624001E6652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJBWJFMDD;
+				INFOPLIST_FILE = tapticMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hi.tapticMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		281938DD23EA8624001E6652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJBWJFMDD;
+				INFOPLIST_FILE = tapticMusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hi.tapticMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapticMusic.app/tapticMusic";
+			};
+			name = Debug;
+		};
+		281938DE23EA8624001E6652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJBWJFMDD;
+				INFOPLIST_FILE = tapticMusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hi.tapticMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapticMusic.app/tapticMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281938B523EA8622001E6652 /* Build configuration list for PBXProject "tapticMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281938D723EA8624001E6652 /* Debug */,
+				281938D823EA8624001E6652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281938D923EA8624001E6652 /* Build configuration list for PBXNativeTarget "tapticMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281938DA23EA8624001E6652 /* Debug */,
+				281938DB23EA8624001E6652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281938DC23EA8624001E6652 /* Build configuration list for PBXNativeTarget "tapticMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281938DD23EA8624001E6652 /* Debug */,
+				281938DE23EA8624001E6652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 281938B223EA8622001E6652 /* Project object */;
+}
