@@ -3,17 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		281938BE23EA8622001E6652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938BD23EA8622001E6652 /* AppDelegate.swift */; };
 		281938C023EA8622001E6652 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938BF23EA8622001E6652 /* SceneDelegate.swift */; };
 		281938C223EA8622001E6652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938C123EA8622001E6652 /* ViewController.swift */; };
-		281938C523EA8622001E6652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281938C323EA8622001E6652 /* Main.storyboard */; };
 		281938C723EA8624001E6652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281938C623EA8624001E6652 /* Assets.xcassets */; };
 		281938CA23EA8624001E6652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281938C823EA8624001E6652 /* LaunchScreen.storyboard */; };
 		281938D523EA8624001E6652 /* tapticMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938D423EA8624001E6652 /* tapticMusicTests.swift */; };
+		281938E023EA86AE001E6652 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938DF23EA86AE001E6652 /* homeViewController.swift */; };
+		281938E523EA95DE001E6652 /* queuedSongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938E423EA95DE001E6652 /* queuedSongTableViewCell.swift */; };
+		281938E723EAA0A1001E6652 /* playStopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281938E623EAA0A1001E6652 /* playStopBar.swift */; };
+		6BA241238A9D404724A1560C /* Pods_tapticMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B613E804AA0ADF8C7F455F8 /* Pods_tapticMusicTests.framework */; };
+		B159F33D4A4CF1DA8939DC03 /* Pods_tapticMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257C3E164B04B9D173600779 /* Pods_tapticMusic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +31,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B613E804AA0ADF8C7F455F8 /* Pods_tapticMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tapticMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		257C3E164B04B9D173600779 /* Pods_tapticMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tapticMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		281938BA23EA8622001E6652 /* tapticMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapticMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		281938BD23EA8622001E6652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		281938BF23EA8622001E6652 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		281938C123EA8622001E6652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		281938C423EA8622001E6652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		281938C623EA8624001E6652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281938C923EA8624001E6652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		281938CB23EA8624001E6652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		281938D023EA8624001E6652 /* tapticMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapticMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281938D423EA8624001E6652 /* tapticMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapticMusicTests.swift; sourceTree = "<group>"; };
 		281938D623EA8624001E6652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281938DF23EA86AE001E6652 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		281938E423EA95DE001E6652 /* queuedSongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queuedSongTableViewCell.swift; sourceTree = "<group>"; };
+		281938E623EAA0A1001E6652 /* playStopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playStopBar.swift; sourceTree = "<group>"; };
+		60FBD89932707BF81B04B184 /* Pods-tapticMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tapticMusic.release.xcconfig"; path = "Target Support Files/Pods-tapticMusic/Pods-tapticMusic.release.xcconfig"; sourceTree = "<group>"; };
+		975A4247B54BC6101E392F1E /* Pods-tapticMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tapticMusicTests.debug.xcconfig"; path = "Target Support Files/Pods-tapticMusicTests/Pods-tapticMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BE99FE0C782E6FEEC6EE9C /* Pods-tapticMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tapticMusicTests.release.xcconfig"; path = "Target Support Files/Pods-tapticMusicTests/Pods-tapticMusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		C967A6980DE5B354FF400A38 /* Pods-tapticMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tapticMusic.debug.xcconfig"; path = "Target Support Files/Pods-tapticMusic/Pods-tapticMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B159F33D4A4CF1DA8939DC03 /* Pods_tapticMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA241238A9D404724A1560C /* Pods_tapticMusicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +78,8 @@
 				281938BC23EA8622001E6652 /* tapticMusic */,
 				281938D323EA8624001E6652 /* tapticMusicTests */,
 				281938BB23EA8622001E6652 /* Products */,
+				D96E54BA8861BF33E2C69083 /* Pods */,
+				8293C6B767E8631F4F18E79E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +95,12 @@
 		281938BC23EA8622001E6652 /* tapticMusic */ = {
 			isa = PBXGroup;
 			children = (
-				281938BD23EA8622001E6652 /* AppDelegate.swift */,
-				281938BF23EA8622001E6652 /* SceneDelegate.swift */,
-				281938C123EA8622001E6652 /* ViewController.swift */,
-				281938C323EA8622001E6652 /* Main.storyboard */,
+				281938CB23EA8624001E6652 /* Info.plist */,
+				281938E323EA956A001E6652 /* controllers */,
+				281938E223EA9543001E6652 /* application */,
+				281938E123EA952E001E6652 /* UIViews */,
 				281938C623EA8624001E6652 /* Assets.xcassets */,
 				281938C823EA8624001E6652 /* LaunchScreen.storyboard */,
-				281938CB23EA8624001E6652 /* Info.plist */,
 			);
 			path = tapticMusic;
 			sourceTree = "<group>";
@@ -99,6 +114,53 @@
 			path = tapticMusicTests;
 			sourceTree = "<group>";
 		};
+		281938E123EA952E001E6652 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				281938E423EA95DE001E6652 /* queuedSongTableViewCell.swift */,
+				281938E623EAA0A1001E6652 /* playStopBar.swift */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		281938E223EA9543001E6652 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				281938BD23EA8622001E6652 /* AppDelegate.swift */,
+				281938BF23EA8622001E6652 /* SceneDelegate.swift */,
+				281938C123EA8622001E6652 /* ViewController.swift */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		281938E323EA956A001E6652 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				281938DF23EA86AE001E6652 /* homeViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		8293C6B767E8631F4F18E79E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				257C3E164B04B9D173600779 /* Pods_tapticMusic.framework */,
+				1B613E804AA0ADF8C7F455F8 /* Pods_tapticMusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96E54BA8861BF33E2C69083 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C967A6980DE5B354FF400A38 /* Pods-tapticMusic.debug.xcconfig */,
+				60FBD89932707BF81B04B184 /* Pods-tapticMusic.release.xcconfig */,
+				975A4247B54BC6101E392F1E /* Pods-tapticMusicTests.debug.xcconfig */,
+				A8BE99FE0C782E6FEEC6EE9C /* Pods-tapticMusicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 281938D923EA8624001E6652 /* Build configuration list for PBXNativeTarget "tapticMusic" */;
 			buildPhases = (
+				0E9D18E798C70B791A4B0B52 /* [CP] Check Pods Manifest.lock */,
 				281938B623EA8622001E6652 /* Sources */,
 				281938B723EA8622001E6652 /* Frameworks */,
 				281938B823EA8622001E6652 /* Resources */,
+				3B76BDF31584ADE47D64FE71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 281938DC23EA8624001E6652 /* Build configuration list for PBXNativeTarget "tapticMusicTests" */;
 			buildPhases = (
+				5C75C3FEEC468DA74A282DB9 /* [CP] Check Pods Manifest.lock */,
 				281938CC23EA8624001E6652 /* Sources */,
 				281938CD23EA8624001E6652 /* Frameworks */,
 				281938CE23EA8624001E6652 /* Resources */,
@@ -182,7 +247,6 @@
 			files = (
 				281938CA23EA8624001E6652 /* LaunchScreen.storyboard in Resources */,
 				281938C723EA8624001E6652 /* Assets.xcassets in Resources */,
-				281938C523EA8622001E6652 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +259,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E9D18E798C70B791A4B0B52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tapticMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B76BDF31584ADE47D64FE71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tapticMusic/Pods-tapticMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tapticMusic/Pods-tapticMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tapticMusic/Pods-tapticMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C75C3FEEC468DA74A282DB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tapticMusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		281938B623EA8622001E6652 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				281938C223EA8622001E6652 /* ViewController.swift in Sources */,
+				281938E723EAA0A1001E6652 /* playStopBar.swift in Sources */,
 				281938BE23EA8622001E6652 /* AppDelegate.swift in Sources */,
+				281938E523EA95DE001E6652 /* queuedSongTableViewCell.swift in Sources */,
 				281938C023EA8622001E6652 /* SceneDelegate.swift in Sources */,
+				281938E023EA86AE001E6652 /* homeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +356,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		281938C323EA8622001E6652 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				281938C423EA8622001E6652 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		281938C823EA8624001E6652 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +483,7 @@
 		};
 		281938DA23EA8624001E6652 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C967A6980DE5B354FF400A38 /* Pods-tapticMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +502,7 @@
 		};
 		281938DB23EA8624001E6652 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60FBD89932707BF81B04B184 /* Pods-tapticMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +521,7 @@
 		};
 		281938DD23EA8624001E6652 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975A4247B54BC6101E392F1E /* Pods-tapticMusicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +544,7 @@
 		};
 		281938DE23EA8624001E6652 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BE99FE0C782E6FEEC6EE9C /* Pods-tapticMusicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
